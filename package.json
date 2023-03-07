@@ -1,0 +1,21 @@
+{
+  "name": "random-str-msg-words",
+  "version": "1.0.0",
+  "description": "Pack showing random words.",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Cristhian Luna <cral2204@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "random-str-msg-words": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  },
+  "typescript.suggestionActions.enabled": false
+}
